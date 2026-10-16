@@ -1,3 +1,7 @@
+---
+title: "Twiddle — Privacy Policy"
+---
+
 # Twiddle — Privacy Policy
 
 **Effective date:** October 16, 2026
