@@ -4,7 +4,7 @@ title: "Twiddle — Privacy Policy"
 
 # Twiddle — Privacy Policy
 
-**Effective date:** October 16, 2026
+**Effective date:** November 7, 2026
 
 Twiddle ("the app") is a fidget-toy app for iOS and Android, published under the **MJ Code** brand by an independent developer, whose name appears on the app's App Store and Google Play listings ("we", "us").
 
@@ -48,7 +48,9 @@ Which toys you have enabled, their order, which toys you have unlocked, your usa
 
 ### 4. Purchases
 
-Packs of toys are sold as in-app purchases through **Apple App Store** and **Google Play**. Apple or Google process the payment and tell the app which packs you own. We receive **no payment or card details** and no billing identity. Your purchase history is managed by Apple or Google and can be restored from the app ("Restore purchases").
+Packs of toys are sold as in-app purchases through **Apple App Store** and **Google Play**. Apple or Google process the payment. We receive **no payment or card details** and no billing identity.
+
+To check which packs you own and to restore them on a new phone, the app uses **RevenueCat**, a purchase-validation service. RevenueCat receives the store's purchase receipt (transaction identifiers, product identifiers, dates) together with a random anonymous identifier generated on your device, not linked to your name or to your Apple or Google account. Your purchase history is managed by Apple or Google and can be restored from the app ("Restore purchases").
 
 ## Data we do not collect
 
@@ -59,14 +61,16 @@ We do **not** collect your name, email address, phone number, precise location, 
 | Provider | Role | Where data is stored |
 |---|---|---|
 | PostHog (PostHog Inc.) | Analytics and session replay | European Union (EU cloud) |
+| RevenueCat (RevenueCat, Inc.) | In-app purchase validation and restore | United States |
 | Apple | App distribution, in-app purchases, iCloud backup | Per Apple's own policies |
 | Google | App distribution, in-app purchases, Google Drive backup | Per Google's own policies |
 
-Analytics and replay data are stored in the European Union and are not transferred outside the EU by us.
+Analytics and replay data are stored in the European Union and are not transferred outside the EU by us. Purchase receipts sent to RevenueCat are stored in the United States under standard contractual clauses; they contain no personal data beyond the anonymous identifier described above.
 
 ## Retention
 
 - Session replays: **30 days**.
+- Purchase records at RevenueCat: for as long as the app is distributed, so that your packs can be restored.
 - Analytics events: kept while the app is maintained, in aggregated or anonymous form, to compare versions over time.
 - Settings and progress: on your device until you delete the app or reset progression; in your own cloud account until you delete it there.
 
